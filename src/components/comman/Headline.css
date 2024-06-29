@@ -1,0 +1,15 @@
+.main {
+    font-family: 'Anton';
+    color: transparent;
+    font-size: 120px;
+    text-align: center;
+    line-height: 115px;
+    /* letter-spacing: 2px; */
+}
+
+.main-in {
+    -webkit-text-stroke: 1px rgb(255, 255, 225, 0.2);
+    text-transform: uppercase;
+    width: 900;
+    letter-spacing: 0.5px;
+}
