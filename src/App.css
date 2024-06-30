@@ -1,12 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  /* background-color: #0c0c14; */
+html,
+body {
+  overflow-x: hidden;
 }
-body{
- scrollbar-width: thin;
-}
+
 
 ::-webkit-scrollbar {
   width: 4px;
