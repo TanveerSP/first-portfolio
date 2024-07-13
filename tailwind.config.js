@@ -3,7 +3,7 @@
 const plugin = require('tailwindcss/plugin');
 
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}",],
+  content: ["./src/**/*.{html,js}",],
   theme: {
     extend: {},
     fontFamily: {
@@ -140,6 +140,22 @@ module.exports = {
 
       gradientGolden: {
         500: "#996709",
+      },
+    },
+    extend: {
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+      },
+      maxWidth: {
+        maxContent: "1260px",
+        maxContentTab: "650px",
+      },
+    },
+    keyframes: {
+      shimmer: {
+        "100%": {
+          transform: "translateX(100%)",
+        },
       },
     },
   },
